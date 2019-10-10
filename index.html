@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Resume: Dominic Henry</title>	
-		<link type="text/css" rel="stylesheet" link="style.css">
+		<link type="text/css" rel="stylesheet" href="style.css">
 	</head>
 	<body>
 		<!-- Main Container -->
@@ -10,33 +10,59 @@
 
 			<!-- Page Header(Contains name) -->
 			<header>
-				<h1>Dominic Henry</h1>
-				<h4>Computer Science Student</h4>
+				<div>
+					<h1>Dominic A. Henry</h1>
+					<p>Computer Science Student</p>
+				</div>
 			</header>	
 
 			<!-- Sidebar(Contains contact information) -->
 			<aside>
+				<!-- Profile Picture -->
+				<img id="profile_pic" src="assets/profile.jpeg" alt="profile_pic">
+
 				<!-- Contact Information -->
 				<section id="contact_section">
 					<!-- Normal Contact Information -->
-					<article id="normal_contact">
+					<article>
 						<h2>Contact</h2>
 						<ul>
-							<li>(876)397-0386</li>	
-							<li>dominichenrywork@hotmail.com</li>	
-							<li>https://github.com/Dev-Dominic</li>	
+							<li>
+								<img class="icons" src="assets/call.svg" alt="">
+								<a class="media_links" href="">(876)397-0386</a>
+							</li>	
+							<li>
+								<img class="icons" src="assets/email.svg" alt="">
+								<a class="media_links" href="mailto:dominichenrywork@hotmail.com">dominichenrywork@hotmail.com</a>
+							</li>
+							<li>
+								<img class="icons" src="assets/github.svg" alt="">
+								<a class="media_links" href="https://github.com/Dev-Dominic">https://github.com/Dev-Dominic</a>
+							</li>	
 						</ul>
-					<article> 
+					</article> 
+
+					<div id="contact_separator"></div>
 
 					<!-- Social Media -->
-					<article id="social_media">
+					<article>
 						<h2>Social Media</h2>
 						<ul>
-							<li></li>	
-							<li></li>	
-							<li></li>	
+							<li>
+								<img class="icons" src="assets/instagram.svg" alt="">
+								<a class="media_links" href="">@xixsarcastrophe</a>
+							</li>	
+							<li>
+								<img class="icons" src="assets/twitter.svg" alt="">
+								<a class="media_links" href="">@xixsarcastrophe</a>
+							</li>	
+							<li>
+								<img class="icons" src="assets/snapchat.svg" alt="">
+								<a class="media_links" href="">@xixsarcastrophe</a>
+							</li>	
 						</ul>
-					<article> 
+					</article> 
+
 				</section>
 			</aside>
 
@@ -55,49 +81,59 @@
 					<h2>Work Experience</h2>	
 
 					<article class="event">
-						<h4>August 2017</h5>
-						<article class="date_info">
-							<h4>Filing Clerk</h5>
-							<h5>Ministry of National Security Jamaica</h5>
-						</article>
+						<div class="date">
+							<p>August 2017</p>
+						</div>
+						<div class="date_info">
+							<p>Filing Clerk</p>
+							<p>Ministry of National Security Jamaica</p>
+						</div>
 					</article>
 
 					
 					<article class="event">
-						<h4>August 2019</h5>
+						<div class="date">
+							<p>August 2019</p>
+						</div>
 						<article class="date_info">
-							<h4>Data and Information Security Intern</h5>
-							<h5>Sagicor Life Limited Jamaica</h5>
+							<p>Data and Information Security Intern</p>
+							<p>Sagicor Life Limited Jamaica</p>
 						</article>
 					</article>
 
 					<article class="event">
-						<h4>September 2019 - Present</h5>
+						<div class="date">
+							<p>September 2019 - Present</p>
+						</div>
 						<article class="date_info">
-							<h4>Assistant Lab Technician</h5>
-							<h5>The University of the West Indies, Mona</h5>
+							<p>Assistant Lab Technician</p>
+							<p>The University of the West Indies, Mona</p>
 						</article>
 					</article>
 
 				</section>		
 
 				<!-- Education -->
-				<section class="main_content_sections">
+				<section class="main_content_sections dated_events">
 					<h2>Education</h2>	
 
 					
 					<article class="event">
-						<h4>September 2011 - July 2018</h5>
+						<div class="date">
+							<p>September 2011 - July 2018</p>
+						</div>
 						<article class="date_info">
-							<h4>Wolmer's Boys' High School</h5>
+							<p>Wolmer's Boys' High School</p>
 						</article>
 					</article>
 
 					<article class="event">
-						<h4>September 2018 - Present</h5>
+						<div class="date">
+							<p>September 2018 - Present</p>
+						</div>
 						<article class="date_info">
-							<h4>BSc. Computer Science and Minor Chinese(Mandarin)</h5>
-							<h5>The University of the West Indies, Mona</h5>
+							<p>BSc. Computer Science and Minor Chinese(Mandarin)</p>
+							<p>The University of the West Indies, Mona</p>
 						</article>
 					</article>
 
@@ -107,17 +143,20 @@
 				<section class="main_content_sections">
 					<h2>Skills/Expertise</h2>	
 
-					<ul class="skills_list">
-						<li>HTML</li>	
-						<li>CSS</li>	
-						<li>JAVASCRIPT</li>	
-						<li>PYTHON</li>	
-						<li>JAVA</li>	
-					</ul>	
+					<div id="skills_lists">
+						<ul>
+							<li>HTML</li>	
+							<li>CSS</li>	
+							<li>JAVASCRIPT</li>	
+							<li>PYTHON</li>	
+							<li>JAVA</li>	
+						</ul>	
 
-					<ul class="skills_list">
-						<li>Git & Github (Version Control)</li>	
-						<li>Beginner Chinese(Mandarin)</li>	
+						<ul>
+							<li>Git & Github (Version Control)</li>	
+							<li>Beginner Chinese(Mandarin)</li>	
+						</ul>
+					</div>
 				</section>		
 			</main>
 
